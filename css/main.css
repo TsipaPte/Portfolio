@@ -1,0 +1,76 @@
+:root{
+    --a_border: 2px solid #227478;
+    --green_color: #2fa176;
+}
+::selection{
+    background-color: #bfebc0;
+}
+body{
+    font-family: Yu Gothic UI Light;
+}
+header{
+    background-image: linear-gradient(to left, #26569f, #00629c, #006a93, #007085, #227478);
+    padding: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.search input{
+    background-color: #ffffff;
+    padding: 15px;
+    width: 500px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.65), 25px 0 20px -20px rgba(0, 0, 0, 0.65);
+    user-select: none;
+}
+.search input:focus{
+    outline: none;
+}
+.btn{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    user-select: none;
+}
+.searchbtn{
+    background-color: darkolivegreen;
+}
+.cancel{
+    background-color: darkred;
+}
+.block{
+    text-align: center;
+    font-size: 20px;
+}
+.block > p > a{
+    text-decoration: none;
+    color: var(--green_color);
+}
+.block > p > a:hover{
+    border-bottom: var(--a_border);
+    transition: 40ms;
+}
+.hr{
+    width: 800px;
+}
+.contact > a{
+    text-decoration: none;
+    color: var(--green_color);
+    margin-right: 20px;
+}
+.contact > a:hover{
+    border-bottom: var(--a_border);
+    transition: 40ms;
+}
+.certificate_container > a{
+    text-decoration: none;
+    color: var(--green_color);
+}
+.certificate_container > a:hover{
+    border-bottom: var(--a_border);
+    transition: 40ms;
+}
